@@ -5,17 +5,17 @@ int BMW::set_fuel_cap(int x)
 {
 	if (x == 0)
 	{
-		this->fuel_cap = 60;
+		this->fuel_cap = 56;
 		return fuel_cap;
 	}
 	if (x == 1)
 	{
-		this->fuel_cap = 40;
+		this->fuel_cap = 60;
 		return fuel_cap;
 	}
 	if (x == 2)
 	{
-		this->fuel_cap = 70;
+		this->fuel_cap = 85;
 		return fuel_cap;
 	}
 }
