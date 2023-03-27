@@ -27,11 +27,11 @@ int BMW::set_fuel_cons(int x)
 		return fuel_cons;
 	}
 	if (x == 1) {
-		this->fuel_cons = 60;
+		this->fuel_cons = 69;
 		return fuel_cons;
 	}
 	if (x == 2) {
-		this->fuel_cons = 90;
+		this->fuel_cons = 80;
 		return fuel_cons;
 	}
 }
@@ -40,17 +40,17 @@ int BMW::set_speed(int x)
 {
 	if (x == 0)
 	{
-		this->speed = 50;
+		this->speed = 60;
 		return speed;
 	}
 	if (x == 1)
 	{
-		this->speed = 30;
+		this->speed = 40;
 		return speed;
 	}
 	if (x == 2)
 	{
-		this->speed = 100;
+		this->speed = 150;
 		return speed;
 	}
 }
