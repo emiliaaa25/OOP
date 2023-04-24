@@ -34,7 +34,7 @@ int main()
 	for (int i = 0;i < phrase.size();i++)
 			if (phrase[i] != ' ')
 			{
-				if (phrase[i] != '.')
+				if (phrase[i] != '.'&& phrase[i] != '?'&& phrase[i] != '!'&& phrase[i] != ',')
 				{
 					if (phrase[i] >= 'A' && phrase[i] <= 'Z')
 						phrase[i] = phrase[i] + 32;
